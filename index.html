@@ -5,56 +5,48 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	
-	<div>
-		<header class="header">
-			
-			<img id='mifflin' src="images/infinity.jpg" width="20%" height="20%">
+
+<div class="grid">	
+			<div class="oneGrid">
+				<div class="header">
+
+			<div id="logoMifflin"> <img id='mifflin' src="images/logopng.png"></div>
 
 			<div class='socialLinks' >
 				<ul class="navbar" style="list-style:none">
-					<li><a href=""><img src="images/fb.png" height="23em"> </a></li>
-					<li><a href=""><img src="images/tw.png" height="23em"> </a></li>
-					<li><a href=""><img src="images/ig.png" height="23em"> </a></li>
-					<li><a href=""><img src="images/ld.png" height="23em"> </a></li>
-					<li style="color: grey">|</li>
-					<li> <input type="submit" value="Member Login"></li>
+					<li><a href="https://www.facebook.com"><img src="images/fb.png" height="23em"> </a></li>
+					<li><a href="https://www.twitter.com"><img src="images/tw.png" height="23em"> </a></li>
+					<li><a href="https://www.instagram.com"><img src="images/ig.png" height="23em"> </a></li>
+					<li><a href="https://www.linkedin.com"><img src="images/ld.png" height="23em"> </a></li>
+					<li> <input id="buttonOne" type="submit" value="Member Login"></li>
 					
 				</ul>
 			</div>
 
 			<div class='topnav-wrapper'>
 				<ul style="list-style:none">
-					<li>Who We Are</li>
-					<li>Events</li>
-					<li>Member Directory</li>
-					<li>Job Bank</li>
-					<li>News & Insights</li>
-					<li>Inclusion & Diversity</li>
-					<li>Donate</li>
-					<li>Contact us</li>
-					<li> <input type="submit" value="Become a Member"></li>
+  						<li><a href='#michaelPic' id ='whoWeAre' href="javascript:void(0)">Who We Are</a></li>
+						<li><a href='#events' id ='ev' href="javascript:void(0)">Events</a></li>
+  						<li><a href='#dwight' id ='dw' href="javascript:void(0)">Meet The Team</a></li>
+  						<li><a href="#newsId" id ='nid' href="javascript:void(0)">News & Insights</a></li>
+  						<li><a href="#newsletterId" id='nlid' href="javascript:void(0)">Newsletter</a></li>
 				</ul>
 			</div>
-			
-
-			<div class= 'z-box'>
+			</div>
+	</div>	
+			<div id="michaelPic" class= 'z-box'>
 				<div class="zboxleft">
-					<div class="button"><</div>
+					<!-- <div class="button"><</div> -->
 				</div>
 				<div class="zboxright">
-					<div id="buttonRight" class="button">></div>
+					<br><br><br><br>
+					<p id="demo">
 				</div>
 			</div>
-		</header>
-	</div>
-
 	
 
-
-	<div class="events2">
-			
-		<div class="events-gridwrap">
+<div id="events" class="threeGrid">
+	
 				
 			<div class="event-left">
 				<h2> Upcoming Events</h2>
@@ -78,34 +70,34 @@
 				
 			</div>
 					
-		</div>
 		
 	</div>
 
-		
+		<div class="fourGrid">
 		<div class="membership3"> 
 			
 
-			<div class="member-gridwrap">
+			<div id='dwight' class="member-gridwrap">
 				
 				<div class="member-left">
 					<div class='member-text'>
+						<h1> Employee of the Month:<br> <br>Dwight Schrute</h1>
 					
-					<h2> "Munder Difflin has been pinnacle in helping me launch a successful career and keep the ship moving. I have been able to meet some amazing pieces of paper who have turned out to be wonderful friends, unofficial mentors, and kindred spirits."</h2>
+					<h2> "Munder Difflin has my dream career. I have been able to meet some amazing pieces of paper who have turned out to be wonderful friends, unofficial karate mentors, and kindred spirits."</h2>
 
-					</div><br> <br>
+					</div><br>
 					<p>-Dwight Schrute, Salesman & Assistant Regional Manager, Munder Difflin</p>
 
 					<div id='memberlist'>
 						<ul>
 							<li>Mentoring</li>
-						 	<li>Exclusive event pricing </li>
-							<li>Membor Directory</li>
-							<li>C-suite</li>
+						 	<li>Pricing </li>
+							<li>Member Directory</li>
+							<li>Paper</li>
 						</ul>
 							
 					</div>
-					<input type="button" name="membership" value="learn about membership">
+					<input id="learnAbout" type="button" name="membership" value="learn about membership">
 				</div>
 
 				
@@ -116,20 +108,13 @@
 			</div>
 		</div>
 		
-		
-			<div class="newsinsight">
+		<div class="fiveGrid">
 				
 
-				<div class="news-grid">
+				<!-- <div id="newsId" class="news-grid"> -->
 					
-					<div class="news-left">
-						<h2> News & Insights</h2>
-						<div id="ny"> career advice</div>
-						<div id="chicago">news</div>
-						<div><strong>See All</strong></div>
-					</div>
-
-					<div class="news-right">
+				
+					
 						
 						<div class='box-right'>
 							<div id="pink" class="top-box">Jim</div>
@@ -143,17 +128,23 @@
 							<div id="pam" class="bottom-box"></div>
 						</div>
 					
-					</div>
+					
 
-				</div>
+						<div class="news-left">
+						<h2> News & Insights</h2>
+						<div id="ny"> career advice</div>
+						<div id="chicago">news</div>
+						<br><br>
+						<div id="seeAllBtn"><strong>See All ></strong></div>
+					
+
+				
 			
 			</div>
+		</div>
 
-
-			
-			</div>
-
-		<div class="newletter">
+<div class="sixGrid">
+		<div id="newsletterId" class="newletter">
 			<div class="newletter-flex"> 
 				
 				<h5> Newslettr signup<br><br>sign up for all the latest news.<br><br>updates and event details.</h5>
@@ -162,18 +153,18 @@
 					<input id="none" type="text" placeholder="First Name">
 					<input id="none" type="text" placeholder="Last Name">
 					<input id="none" type="text" placeholder="Email Address">
-					<input type="submit" value="Sign up">
+					<input id="memberBtn" type="submit" value="Sign up">
 				</div>
 				
 				</div>
 		</div>
-
-
+</div>
+<div class="sevenGrid">
 	<div class="footer">
-		<footer>
+	
 
 
-			<div class='topnav-wrapper'>
+			<div class='botNav-wrapper'>
 				<ul style="list-style:none">
 					<li>Who We Are</li>
 					<li>Events</li>
@@ -183,14 +174,25 @@
 					<li>Inclusion & Diversity</li>
 					<li>Donate</li>
 					<li>Contact us</li>
-					<li> <input type="submit" name="become a member"></li>
 				</ul>
 			</div>
 			
-		</footer>
+
 			
 	</div>
 		
+</div>
+</div>
+
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="forInnerOne"></p>
+  </div>
+
+</div>
 
 		
 	</body>
